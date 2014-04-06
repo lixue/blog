@@ -25,12 +25,14 @@ layout: default
     <script id="bdlike_shell"></script>
 <script>
 var bdShare_config = {
-"type":"small",
-"color":"blue",
-"uid":"8888888",
-"share":"yes"
+	"type":"small",
+	"color":"blue",
+	"uid":"8888888",
+	"share":"yes"
 };
-document.getElementById("bdlike_shell").src="http://bdimg.share.baidu.com/static/js/like_shell.js?t=" + Math.ceil(new Date()/3600000);
+document.getElementById("bdlike_shell").src="
+http://bdimg.share.baidu.com/
+static/js/like_shell.js?t=" + new Date().getHours();
 </script>
     <!-- END this would not work on any other domain -->
     </section>
