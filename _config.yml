@@ -6,7 +6,7 @@ markdown: rdiscount
 
 author: "Lixue"
 atom-baseurl: "http://Lixue.org"
-disqus: "gopherwood"
+disqus: "#"
 
 navigations:
   - title: Archive
